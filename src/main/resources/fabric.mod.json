@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zombiesmod",
+  "version": "${version}",
+  "name": "Criticals Zombies",
+  "description": "Round-based zombies survival menus (milestone 1).",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.zombiesmod.ZombiesModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
